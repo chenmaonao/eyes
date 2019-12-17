@@ -1,0 +1,4 @@
+@mixin bg_img($name,$size) {
+	background-image: url("/img/ic_tab_strip_icon_#{$name}.png");
+	background-size: $size;
+}
